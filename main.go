@@ -22,7 +22,7 @@ func main() {
 	}
 
 	if err := run(amount); err != nil {
-		fmt.Printf("Error: %v", err)
+		fmt.Printf("Error: %v\n", err)
 		os.Exit(1)
 	}
 }
